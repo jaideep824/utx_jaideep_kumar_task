@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23ABEC382D45D50000F7506B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ABEC372D45D50000F7506B /* AppDelegate.swift */; };
+		23ABEC3A2D45D50000F7506B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ABEC392D45D50000F7506B /* SceneDelegate.swift */; };
+		23ABEC3C2D45D50000F7506B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ABEC3B2D45D50000F7506B /* ViewController.swift */; };
+		23ABEC3F2D45D50000F7506B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 23ABEC3E2D45D50000F7506B /* Base */; };
+		23ABEC412D45D50200F7506B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23ABEC402D45D50200F7506B /* Assets.xcassets */; };
+		23ABEC442D45D50200F7506B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 23ABEC432D45D50200F7506B /* Base */; };
+		23ABEC4F2D45D50200F7506B /* JaideepTaskCryptoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ABEC4E2D45D50200F7506B /* JaideepTaskCryptoTests.swift */; };
+		23ABEC592D45D50200F7506B /* JaideepTaskCryptoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ABEC582D45D50200F7506B /* JaideepTaskCryptoUITests.swift */; };
+		23ABEC5B2D45D50200F7506B /* JaideepTaskCryptoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ABEC5A2D45D50200F7506B /* JaideepTaskCryptoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23ABEC4B2D45D50200F7506B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23ABEC2C2D45D50000F7506B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23ABEC332D45D50000F7506B;
+			remoteInfo = JaideepTaskCrypto;
+		};
+		23ABEC552D45D50200F7506B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23ABEC2C2D45D50000F7506B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23ABEC332D45D50000F7506B;
+			remoteInfo = JaideepTaskCrypto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23ABEC342D45D50000F7506B /* JaideepTaskCrypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JaideepTaskCrypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23ABEC372D45D50000F7506B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		23ABEC392D45D50000F7506B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		23ABEC3B2D45D50000F7506B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		23ABEC3E2D45D50000F7506B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		23ABEC402D45D50200F7506B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23ABEC432D45D50200F7506B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		23ABEC452D45D50200F7506B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23ABEC4A2D45D50200F7506B /* JaideepTaskCryptoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JaideepTaskCryptoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23ABEC4E2D45D50200F7506B /* JaideepTaskCryptoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JaideepTaskCryptoTests.swift; sourceTree = "<group>"; };
+		23ABEC542D45D50200F7506B /* JaideepTaskCryptoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JaideepTaskCryptoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23ABEC582D45D50200F7506B /* JaideepTaskCryptoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JaideepTaskCryptoUITests.swift; sourceTree = "<group>"; };
+		23ABEC5A2D45D50200F7506B /* JaideepTaskCryptoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JaideepTaskCryptoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23ABEC312D45D50000F7506B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23ABEC472D45D50200F7506B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23ABEC512D45D50200F7506B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23ABEC2B2D45D50000F7506B = {
+			isa = PBXGroup;
+			children = (
+				23ABEC362D45D50000F7506B /* JaideepTaskCrypto */,
+				23ABEC4D2D45D50200F7506B /* JaideepTaskCryptoTests */,
+				23ABEC572D45D50200F7506B /* JaideepTaskCryptoUITests */,
+				23ABEC352D45D50000F7506B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23ABEC352D45D50000F7506B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23ABEC342D45D50000F7506B /* JaideepTaskCrypto.app */,
+				23ABEC4A2D45D50200F7506B /* JaideepTaskCryptoTests.xctest */,
+				23ABEC542D45D50200F7506B /* JaideepTaskCryptoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23ABEC362D45D50000F7506B /* JaideepTaskCrypto */ = {
+			isa = PBXGroup;
+			children = (
+				23ABEC372D45D50000F7506B /* AppDelegate.swift */,
+				23ABEC392D45D50000F7506B /* SceneDelegate.swift */,
+				23ABEC3B2D45D50000F7506B /* ViewController.swift */,
+				23ABEC3D2D45D50000F7506B /* Main.storyboard */,
+				23ABEC402D45D50200F7506B /* Assets.xcassets */,
+				23ABEC422D45D50200F7506B /* LaunchScreen.storyboard */,
+				23ABEC452D45D50200F7506B /* Info.plist */,
+			);
+			path = JaideepTaskCrypto;
+			sourceTree = "<group>";
+		};
+		23ABEC4D2D45D50200F7506B /* JaideepTaskCryptoTests */ = {
+			isa = PBXGroup;
+			children = (
+				23ABEC4E2D45D50200F7506B /* JaideepTaskCryptoTests.swift */,
+			);
+			path = JaideepTaskCryptoTests;
+			sourceTree = "<group>";
+		};
+		23ABEC572D45D50200F7506B /* JaideepTaskCryptoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				23ABEC582D45D50200F7506B /* JaideepTaskCryptoUITests.swift */,
+				23ABEC5A2D45D50200F7506B /* JaideepTaskCryptoUITestsLaunchTests.swift */,
+			);
+			path = JaideepTaskCryptoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23ABEC332D45D50000F7506B /* JaideepTaskCrypto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23ABEC5E2D45D50200F7506B /* Build configuration list for PBXNativeTarget "JaideepTaskCrypto" */;
+			buildPhases = (
+				23ABEC302D45D50000F7506B /* Sources */,
+				23ABEC312D45D50000F7506B /* Frameworks */,
+				23ABEC322D45D50000F7506B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JaideepTaskCrypto;
+			productName = JaideepTaskCrypto;
+			productReference = 23ABEC342D45D50000F7506B /* JaideepTaskCrypto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23ABEC492D45D50200F7506B /* JaideepTaskCryptoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23ABEC612D45D50200F7506B /* Build configuration list for PBXNativeTarget "JaideepTaskCryptoTests" */;
+			buildPhases = (
+				23ABEC462D45D50200F7506B /* Sources */,
+				23ABEC472D45D50200F7506B /* Frameworks */,
+				23ABEC482D45D50200F7506B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23ABEC4C2D45D50200F7506B /* PBXTargetDependency */,
+			);
+			name = JaideepTaskCryptoTests;
+			productName = JaideepTaskCryptoTests;
+			productReference = 23ABEC4A2D45D50200F7506B /* JaideepTaskCryptoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		23ABEC532D45D50200F7506B /* JaideepTaskCryptoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23ABEC642D45D50200F7506B /* Build configuration list for PBXNativeTarget "JaideepTaskCryptoUITests" */;
+			buildPhases = (
+				23ABEC502D45D50200F7506B /* Sources */,
+				23ABEC512D45D50200F7506B /* Frameworks */,
+				23ABEC522D45D50200F7506B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23ABEC562D45D50200F7506B /* PBXTargetDependency */,
+			);
+			name = JaideepTaskCryptoUITests;
+			productName = JaideepTaskCryptoUITests;
+			productReference = 23ABEC542D45D50200F7506B /* JaideepTaskCryptoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23ABEC2C2D45D50000F7506B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					23ABEC332D45D50000F7506B = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					23ABEC492D45D50200F7506B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 23ABEC332D45D50000F7506B;
+					};
+					23ABEC532D45D50200F7506B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 23ABEC332D45D50000F7506B;
+					};
+				};
+			};
+			buildConfigurationList = 23ABEC2F2D45D50000F7506B /* Build configuration list for PBXProject "JaideepTaskCrypto" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23ABEC2B2D45D50000F7506B;
+			productRefGroup = 23ABEC352D45D50000F7506B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23ABEC332D45D50000F7506B /* JaideepTaskCrypto */,
+				23ABEC492D45D50200F7506B /* JaideepTaskCryptoTests */,
+				23ABEC532D45D50200F7506B /* JaideepTaskCryptoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23ABEC322D45D50000F7506B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23ABEC412D45D50200F7506B /* Assets.xcassets in Resources */,
+				23ABEC442D45D50200F7506B /* Base in Resources */,
+				23ABEC3F2D45D50000F7506B /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23ABEC482D45D50200F7506B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23ABEC522D45D50200F7506B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23ABEC302D45D50000F7506B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23ABEC3C2D45D50000F7506B /* ViewController.swift in Sources */,
+				23ABEC382D45D50000F7506B /* AppDelegate.swift in Sources */,
+				23ABEC3A2D45D50000F7506B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23ABEC462D45D50200F7506B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23ABEC4F2D45D50200F7506B /* JaideepTaskCryptoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23ABEC502D45D50200F7506B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23ABEC592D45D50200F7506B /* JaideepTaskCryptoUITests.swift in Sources */,
+				23ABEC5B2D45D50200F7506B /* JaideepTaskCryptoUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23ABEC4C2D45D50200F7506B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23ABEC332D45D50000F7506B /* JaideepTaskCrypto */;
+			targetProxy = 23ABEC4B2D45D50200F7506B /* PBXContainerItemProxy */;
+		};
+		23ABEC562D45D50200F7506B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23ABEC332D45D50000F7506B /* JaideepTaskCrypto */;
+			targetProxy = 23ABEC552D45D50200F7506B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		23ABEC3D2D45D50000F7506B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23ABEC3E2D45D50000F7506B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		23ABEC422D45D50200F7506B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23ABEC432D45D50200F7506B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		23ABEC5C2D45D50200F7506B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		23ABEC5D2D45D50200F7506B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23ABEC5F2D45D50200F7506B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JaideepTaskCrypto/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dummy.JaideepTaskCrypto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		23ABEC602D45D50200F7506B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JaideepTaskCrypto/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dummy.JaideepTaskCrypto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		23ABEC622D45D50200F7506B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dummy.JaideepTaskCryptoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JaideepTaskCrypto.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JaideepTaskCrypto";
+			};
+			name = Debug;
+		};
+		23ABEC632D45D50200F7506B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dummy.JaideepTaskCryptoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JaideepTaskCrypto.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JaideepTaskCrypto";
+			};
+			name = Release;
+		};
+		23ABEC652D45D50200F7506B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dummy.JaideepTaskCryptoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JaideepTaskCrypto;
+			};
+			name = Debug;
+		};
+		23ABEC662D45D50200F7506B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dummy.JaideepTaskCryptoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JaideepTaskCrypto;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23ABEC2F2D45D50000F7506B /* Build configuration list for PBXProject "JaideepTaskCrypto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23ABEC5C2D45D50200F7506B /* Debug */,
+				23ABEC5D2D45D50200F7506B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23ABEC5E2D45D50200F7506B /* Build configuration list for PBXNativeTarget "JaideepTaskCrypto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23ABEC5F2D45D50200F7506B /* Debug */,
+				23ABEC602D45D50200F7506B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23ABEC612D45D50200F7506B /* Build configuration list for PBXNativeTarget "JaideepTaskCryptoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23ABEC622D45D50200F7506B /* Debug */,
+				23ABEC632D45D50200F7506B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23ABEC642D45D50200F7506B /* Build configuration list for PBXNativeTarget "JaideepTaskCryptoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23ABEC652D45D50200F7506B /* Debug */,
+				23ABEC662D45D50200F7506B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23ABEC2C2D45D50000F7506B /* Project object */;
+}

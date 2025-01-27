@@ -8,14 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		23ABEC382D45D50000F7506B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ABEC372D45D50000F7506B /* AppDelegate.swift */; };
-		23ABEC3A2D45D50000F7506B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ABEC392D45D50000F7506B /* SceneDelegate.swift */; };
-		23ABEC3C2D45D50000F7506B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ABEC3B2D45D50000F7506B /* ViewController.swift */; };
 		23ABEC3F2D45D50000F7506B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 23ABEC3E2D45D50000F7506B /* Base */; };
 		23ABEC412D45D50200F7506B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23ABEC402D45D50200F7506B /* Assets.xcassets */; };
 		23ABEC442D45D50200F7506B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 23ABEC432D45D50200F7506B /* Base */; };
 		23ABEC4F2D45D50200F7506B /* JaideepTaskCryptoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ABEC4E2D45D50200F7506B /* JaideepTaskCryptoTests.swift */; };
 		23ABEC592D45D50200F7506B /* JaideepTaskCryptoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ABEC582D45D50200F7506B /* JaideepTaskCryptoUITests.swift */; };
 		23ABEC5B2D45D50200F7506B /* JaideepTaskCryptoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ABEC5A2D45D50200F7506B /* JaideepTaskCryptoUITestsLaunchTests.swift */; };
+		23ABEC722D45D64600F7506B /* Anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ABEC712D45D64600F7506B /* Anchor.swift */; };
+		23ABEC742D45D68300F7506B /* NetworkConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ABEC732D45D68300F7506B /* NetworkConfig.swift */; };
+		23ABEC762D45D6A900F7506B /* NetworkUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ABEC752D45D6A900F7506B /* NetworkUtility.swift */; };
+		23ABEC782D45D6CB00F7506B /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ABEC772D45D6CB00F7506B /* Networking.swift */; };
+		23ABEC7B2D45D7F400F7506B /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ABEC7A2D45D7F400F7506B /* Crypto.swift */; };
+		23ABEC7D2D45DAC600F7506B /* AppEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ABEC7C2D45DAC600F7506B /* AppEnums.swift */; };
+		23ABEC802D45DB9500F7506B /* CryptoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ABEC7F2D45DB9500F7506B /* CryptoListViewController.swift */; };
+		23ABEC822D45DBAA00F7506B /* CryptoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ABEC812D45DBAA00F7506B /* CryptoListViewModel.swift */; };
+		23ABEC842D45DF7500F7506B /* CryptoListViewController+Delegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ABEC832D45DF7500F7506B /* CryptoListViewController+Delegates.swift */; };
+		23ABEC862D45DFC600F7506B /* CryptoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ABEC852D45DFC600F7506B /* CryptoTableViewCell.swift */; };
+		23ABEC892D45E1B200F7506B /* JaideepTaskCrypto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 23ABEC872D45E1B200F7506B /* JaideepTaskCrypto.xcdatamodeld */; };
+		23ABEC8B2D45E5FA00F7506B /* CoreDataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ABEC8A2D45E5FA00F7506B /* CoreDataStorage.swift */; };
+		23ABECD22D45EB5A00F7506B /* LocalStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ABECD12D45EB5A00F7506B /* LocalStorage.swift */; };
+		23ABECD72D45F92100F7506B /* StorageUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ABECD62D45F92100F7506B /* StorageUtility.swift */; };
+		23ABECDF2D461B0B00F7506B /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ABECDE2D461B0B00F7506B /* FilterViewController.swift */; };
+		23ABECE22D461FBC00F7506B /* FilterViewController-CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ABECE12D461FBC00F7506B /* FilterViewController-CollectionView.swift */; };
+		23ABECE62D4620F500F7506B /* ChipViewCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ABECE52D4620F500F7506B /* ChipViewCollectionCell.swift */; };
+		23ABECE92D4625F500F7506B /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ABECE82D4625F500F7506B /* UIView+Extensions.swift */; };
+		23ABECEB2D4631EC00F7506B /* FilterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ABECEA2D4631EC00F7506B /* FilterProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +55,6 @@
 /* Begin PBXFileReference section */
 		23ABEC342D45D50000F7506B /* JaideepTaskCrypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JaideepTaskCrypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23ABEC372D45D50000F7506B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		23ABEC392D45D50000F7506B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		23ABEC3B2D45D50000F7506B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		23ABEC3E2D45D50000F7506B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		23ABEC402D45D50200F7506B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23ABEC432D45D50200F7506B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +64,25 @@
 		23ABEC542D45D50200F7506B /* JaideepTaskCryptoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JaideepTaskCryptoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23ABEC582D45D50200F7506B /* JaideepTaskCryptoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JaideepTaskCryptoUITests.swift; sourceTree = "<group>"; };
 		23ABEC5A2D45D50200F7506B /* JaideepTaskCryptoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JaideepTaskCryptoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		23ABEC712D45D64600F7506B /* Anchor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anchor.swift; sourceTree = "<group>"; };
+		23ABEC732D45D68300F7506B /* NetworkConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConfig.swift; sourceTree = "<group>"; };
+		23ABEC752D45D6A900F7506B /* NetworkUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkUtility.swift; sourceTree = "<group>"; };
+		23ABEC772D45D6CB00F7506B /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		23ABEC7A2D45D7F400F7506B /* Crypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
+		23ABEC7C2D45DAC600F7506B /* AppEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnums.swift; sourceTree = "<group>"; };
+		23ABEC7F2D45DB9500F7506B /* CryptoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoListViewController.swift; sourceTree = "<group>"; };
+		23ABEC812D45DBAA00F7506B /* CryptoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoListViewModel.swift; sourceTree = "<group>"; };
+		23ABEC832D45DF7500F7506B /* CryptoListViewController+Delegates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CryptoListViewController+Delegates.swift"; sourceTree = "<group>"; };
+		23ABEC852D45DFC600F7506B /* CryptoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTableViewCell.swift; sourceTree = "<group>"; };
+		23ABEC882D45E1B200F7506B /* JaideepTaskCrypto.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JaideepTaskCrypto.xcdatamodel; sourceTree = "<group>"; };
+		23ABEC8A2D45E5FA00F7506B /* CoreDataStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStorage.swift; sourceTree = "<group>"; };
+		23ABECD12D45EB5A00F7506B /* LocalStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStorage.swift; sourceTree = "<group>"; };
+		23ABECD62D45F92100F7506B /* StorageUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageUtility.swift; sourceTree = "<group>"; };
+		23ABECDE2D461B0B00F7506B /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		23ABECE12D461FBC00F7506B /* FilterViewController-CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FilterViewController-CollectionView.swift"; sourceTree = "<group>"; };
+		23ABECE52D4620F500F7506B /* ChipViewCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipViewCollectionCell.swift; sourceTree = "<group>"; };
+		23ABECE82D4625F500F7506B /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		23ABECEA2D4631EC00F7506B /* FilterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +133,8 @@
 		23ABEC362D45D50000F7506B /* JaideepTaskCrypto */ = {
 			isa = PBXGroup;
 			children = (
-				23ABEC372D45D50000F7506B /* AppDelegate.swift */,
-				23ABEC392D45D50000F7506B /* SceneDelegate.swift */,
-				23ABEC3B2D45D50000F7506B /* ViewController.swift */,
-				23ABEC3D2D45D50000F7506B /* Main.storyboard */,
-				23ABEC402D45D50200F7506B /* Assets.xcassets */,
-				23ABEC422D45D50200F7506B /* LaunchScreen.storyboard */,
+				23ABEC682D45D51C00F7506B /* Resources */,
+				23ABEC672D45D51000F7506B /* Sources */,
 				23ABEC452D45D50200F7506B /* Info.plist */,
 			);
 			path = JaideepTaskCrypto;
@@ -125,6 +155,139 @@
 				23ABEC5A2D45D50200F7506B /* JaideepTaskCryptoUITestsLaunchTests.swift */,
 			);
 			path = JaideepTaskCryptoUITests;
+			sourceTree = "<group>";
+		};
+		23ABEC672D45D51000F7506B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				23ABEC692D45D52200F7506B /* App */,
+				23ABEC792D45D71800F7506B /* Models */,
+				23ABEC6B2D45D52B00F7506B /* Modules */,
+				23ABEC6C2D45D53200F7506B /* Utility */,
+				23ABEC6A2D45D52600F7506B /* Views */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		23ABEC682D45D51C00F7506B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				23ABEC6D2D45D55300F7506B /* Storyboards */,
+				23ABEC402D45D50200F7506B /* Assets.xcassets */,
+				23ABEC872D45E1B200F7506B /* JaideepTaskCrypto.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		23ABEC692D45D52200F7506B /* App */ = {
+			isa = PBXGroup;
+			children = (
+				23ABEC372D45D50000F7506B /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		23ABEC6A2D45D52600F7506B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				23ABEC852D45DFC600F7506B /* CryptoTableViewCell.swift */,
+				23ABECE52D4620F500F7506B /* ChipViewCollectionCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		23ABEC6B2D45D52B00F7506B /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				23ABECE02D461F3000F7506B /* Filter */,
+				23ABEC7E2D45DB7600F7506B /* CryptoList */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		23ABEC6C2D45D53200F7506B /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				23ABEC7C2D45DAC600F7506B /* AppEnums.swift */,
+				23ABEC702D45D62000F7506B /* Anchor */,
+				23ABECE72D4625D300F7506B /* Extensions */,
+				23ABEC6F2D45D5DC00F7506B /* LocalStorage */,
+				23ABEC6E2D45D5D500F7506B /* Network */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		23ABEC6D2D45D55300F7506B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				23ABEC422D45D50200F7506B /* LaunchScreen.storyboard */,
+				23ABEC3D2D45D50000F7506B /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		23ABEC6E2D45D5D500F7506B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				23ABEC732D45D68300F7506B /* NetworkConfig.swift */,
+				23ABEC752D45D6A900F7506B /* NetworkUtility.swift */,
+				23ABEC772D45D6CB00F7506B /* Networking.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		23ABEC6F2D45D5DC00F7506B /* LocalStorage */ = {
+			isa = PBXGroup;
+			children = (
+				23ABEC8A2D45E5FA00F7506B /* CoreDataStorage.swift */,
+				23ABECD62D45F92100F7506B /* StorageUtility.swift */,
+				23ABECD12D45EB5A00F7506B /* LocalStorage.swift */,
+			);
+			path = LocalStorage;
+			sourceTree = "<group>";
+		};
+		23ABEC702D45D62000F7506B /* Anchor */ = {
+			isa = PBXGroup;
+			children = (
+				23ABEC712D45D64600F7506B /* Anchor.swift */,
+			);
+			path = Anchor;
+			sourceTree = "<group>";
+		};
+		23ABEC792D45D71800F7506B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				23ABEC7A2D45D7F400F7506B /* Crypto.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		23ABEC7E2D45DB7600F7506B /* CryptoList */ = {
+			isa = PBXGroup;
+			children = (
+				23ABEC812D45DBAA00F7506B /* CryptoListViewModel.swift */,
+				23ABEC7F2D45DB9500F7506B /* CryptoListViewController.swift */,
+				23ABEC832D45DF7500F7506B /* CryptoListViewController+Delegates.swift */,
+			);
+			path = CryptoList;
+			sourceTree = "<group>";
+		};
+		23ABECE02D461F3000F7506B /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				23ABECEA2D4631EC00F7506B /* FilterProtocol.swift */,
+				23ABECDE2D461B0B00F7506B /* FilterViewController.swift */,
+				23ABECE12D461FBC00F7506B /* FilterViewController-CollectionView.swift */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		23ABECE72D4625D300F7506B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				23ABECE82D4625F500F7506B /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +421,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23ABEC3C2D45D50000F7506B /* ViewController.swift in Sources */,
+				23ABECE92D4625F500F7506B /* UIView+Extensions.swift in Sources */,
+				23ABEC892D45E1B200F7506B /* JaideepTaskCrypto.xcdatamodeld in Sources */,
+				23ABEC862D45DFC600F7506B /* CryptoTableViewCell.swift in Sources */,
+				23ABECEB2D4631EC00F7506B /* FilterProtocol.swift in Sources */,
 				23ABEC382D45D50000F7506B /* AppDelegate.swift in Sources */,
-				23ABEC3A2D45D50000F7506B /* SceneDelegate.swift in Sources */,
+				23ABEC722D45D64600F7506B /* Anchor.swift in Sources */,
+				23ABEC7D2D45DAC600F7506B /* AppEnums.swift in Sources */,
+				23ABEC782D45D6CB00F7506B /* Networking.swift in Sources */,
+				23ABEC842D45DF7500F7506B /* CryptoListViewController+Delegates.swift in Sources */,
+				23ABEC802D45DB9500F7506B /* CryptoListViewController.swift in Sources */,
+				23ABEC822D45DBAA00F7506B /* CryptoListViewModel.swift in Sources */,
+				23ABECD72D45F92100F7506B /* StorageUtility.swift in Sources */,
+				23ABECE22D461FBC00F7506B /* FilterViewController-CollectionView.swift in Sources */,
+				23ABECDF2D461B0B00F7506B /* FilterViewController.swift in Sources */,
+				23ABECE62D4620F500F7506B /* ChipViewCollectionCell.swift in Sources */,
+				23ABEC742D45D68300F7506B /* NetworkConfig.swift in Sources */,
+				23ABEC8B2D45E5FA00F7506B /* CoreDataStorage.swift in Sources */,
+				23ABECD22D45EB5A00F7506B /* LocalStorage.swift in Sources */,
+				23ABEC7B2D45D7F400F7506B /* Crypto.swift in Sources */,
+				23ABEC762D45D6A900F7506B /* NetworkUtility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -601,6 +781,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		23ABEC872D45E1B200F7506B /* JaideepTaskCrypto.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				23ABEC882D45E1B200F7506B /* JaideepTaskCrypto.xcdatamodel */,
+			);
+			currentVersion = 23ABEC882D45E1B200F7506B /* JaideepTaskCrypto.xcdatamodel */;
+			name = JaideepTaskCrypto.xcdatamodeld;
+			path = /Users/jaideep/Desktop/JaideepTaskCrypto/JaideepTaskCrypto/Resources/JaideepTaskCrypto.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 23ABEC2C2D45D50000F7506B /* Project object */;
 }

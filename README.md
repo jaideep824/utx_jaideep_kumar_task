@@ -11,12 +11,6 @@ The app supports **dark mode**. The theme can be toggled based on the user's pre
 ```swift
 func setAppMode() {
     if #available(iOS 13.0, *) {
-        if traitCollection.userInterfaceStyle == .dark {
-            // Set dark mode
-            window?.overrideUserInterfaceStyle = .dark
-        } else {
-            // Set light mode
-            window?.overrideUserInterfaceStyle = .light
-        }
+    window?.overrideUserInterfaceStyle = .dark
     }
 }

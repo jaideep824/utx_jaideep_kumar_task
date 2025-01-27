@@ -7,10 +7,6 @@
 
 import UIKit
 
-// TODO: Add Dark Mode switch instruction, pull down refresh, sheet, codable with core data in readme file
-// TODO: Unit tests
-// TODO: Git and Git Push
-
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?

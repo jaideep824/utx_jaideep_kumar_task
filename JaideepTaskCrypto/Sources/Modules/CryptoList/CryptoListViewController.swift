@@ -128,7 +128,16 @@ private extension CryptoListViewController {
             self?.searchBarHeightConstraint?.constant = (self?.isSearchActive ?? false) ? 50 : 0
             self?.view.layoutIfNeeded()
         } completion: {[weak self] _ in
-            _ = (self?.isSearchActive ?? false) ? self?.searchBar.becomeFirstResponder() : self?.searchBar.resignFirstResponder()
+            guard let self = self else { return }
+            if self.isSearchActive {
+                DispatchQueue.main.async {
+                    self.searchBar.becomeFirstResponder()
+                }
+            } else {
+                DispatchQueue.main.async {
+                    self.searchBar.resignFirstResponder()
+                }
+            }
         }
     }
     

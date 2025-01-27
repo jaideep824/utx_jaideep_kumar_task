@@ -23,6 +23,8 @@ class CryptoListViewModel {
     
     // MARK: - Exposed Apis
     func search(text: String) {
+        // TODO: add debounce logic for search
+        
         if text.isEmpty {
             filteredCryptoList = securedCryptoListCopy
             return
@@ -30,7 +32,7 @@ class CryptoListViewModel {
         
         filteredCryptoList.removeAll()
         for cryto in securedCryptoListCopy {
-            if cryto.name?.localizedCaseInsensitiveContains(text) ?? false {
+            if (cryto.name?.localizedCaseInsensitiveContains(text) ?? false)  || (cryto.symbol?.localizedCaseInsensitiveContains(text) ?? false) {
                 filteredCryptoList.append(cryto)
             }
         }
@@ -113,8 +115,6 @@ private extension CryptoListViewModel {
                 self?.filteredCryptoList = cryptoList
                 self?.saveCrypto()
                 self?.cryptoListUpdated.send()
-                
-                print("Data from core DATA: ", try? Crypto.fetchSavedCrypto())
             }
             .store(in: &cancellables)
     }
@@ -123,12 +123,3 @@ private extension CryptoListViewModel {
         storageService.saveContext()
     }
 }
-
-/*
- id = bitcoinbtccoin;
- isActive = 1;
- isNew = 0;
- name = Bitcoin;
- symbol = BTC;
- type = coin
- */

@@ -11,7 +11,6 @@
 		23ABEC3F2D45D50000F7506B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 23ABEC3E2D45D50000F7506B /* Base */; };
 		23ABEC412D45D50200F7506B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23ABEC402D45D50200F7506B /* Assets.xcassets */; };
 		23ABEC442D45D50200F7506B /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 23ABEC432D45D50200F7506B /* Base */; };
-		23ABEC4F2D45D50200F7506B /* JaideepTaskCryptoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ABEC4E2D45D50200F7506B /* JaideepTaskCryptoTests.swift */; };
 		23ABEC592D45D50200F7506B /* JaideepTaskCryptoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ABEC582D45D50200F7506B /* JaideepTaskCryptoUITests.swift */; };
 		23ABEC5B2D45D50200F7506B /* JaideepTaskCryptoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ABEC5A2D45D50200F7506B /* JaideepTaskCryptoUITestsLaunchTests.swift */; };
 		23ABEC722D45D64600F7506B /* Anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ABEC712D45D64600F7506B /* Anchor.swift */; };
@@ -33,6 +32,8 @@
 		23ABECE62D4620F500F7506B /* ChipViewCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ABECE52D4620F500F7506B /* ChipViewCollectionCell.swift */; };
 		23ABECE92D4625F500F7506B /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ABECE82D4625F500F7506B /* UIView+Extensions.swift */; };
 		23ABECEB2D4631EC00F7506B /* FilterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ABECEA2D4631EC00F7506B /* FilterProtocol.swift */; };
+		23ABECED2D47B39C00F7506B /* CryptoListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ABECEC2D47B39C00F7506B /* CryptoListViewModelTests.swift */; };
+		23ABECF02D47B45D00F7506B /* MockLocalStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ABECEF2D47B45D00F7506B /* MockLocalStorage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +61,6 @@
 		23ABEC432D45D50200F7506B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23ABEC452D45D50200F7506B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23ABEC4A2D45D50200F7506B /* JaideepTaskCryptoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JaideepTaskCryptoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		23ABEC4E2D45D50200F7506B /* JaideepTaskCryptoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JaideepTaskCryptoTests.swift; sourceTree = "<group>"; };
 		23ABEC542D45D50200F7506B /* JaideepTaskCryptoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JaideepTaskCryptoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23ABEC582D45D50200F7506B /* JaideepTaskCryptoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JaideepTaskCryptoUITests.swift; sourceTree = "<group>"; };
 		23ABEC5A2D45D50200F7506B /* JaideepTaskCryptoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JaideepTaskCryptoUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -83,6 +83,8 @@
 		23ABECE52D4620F500F7506B /* ChipViewCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipViewCollectionCell.swift; sourceTree = "<group>"; };
 		23ABECE82D4625F500F7506B /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		23ABECEA2D4631EC00F7506B /* FilterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterProtocol.swift; sourceTree = "<group>"; };
+		23ABECEC2D47B39C00F7506B /* CryptoListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoListViewModelTests.swift; sourceTree = "<group>"; };
+		23ABECEF2D47B45D00F7506B /* MockLocalStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockLocalStorage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,7 +145,8 @@
 		23ABEC4D2D45D50200F7506B /* JaideepTaskCryptoTests */ = {
 			isa = PBXGroup;
 			children = (
-				23ABEC4E2D45D50200F7506B /* JaideepTaskCryptoTests.swift */,
+				23ABECEE2D47B44E00F7506B /* Mocks */,
+				23ABECEC2D47B39C00F7506B /* CryptoListViewModelTests.swift */,
 			);
 			path = JaideepTaskCryptoTests;
 			sourceTree = "<group>";
@@ -290,6 +293,14 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		23ABECEE2D47B44E00F7506B /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				23ABECEF2D47B45D00F7506B /* MockLocalStorage.swift */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -361,6 +372,7 @@
 					};
 					23ABEC492D45D50200F7506B = {
 						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
 						TestTargetID = 23ABEC332D45D50000F7506B;
 					};
 					23ABEC532D45D50200F7506B = {
@@ -448,7 +460,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23ABEC4F2D45D50200F7506B /* JaideepTaskCryptoTests.swift in Sources */,
+				23ABECED2D47B39C00F7506B /* CryptoListViewModelTests.swift in Sources */,
+				23ABECF02D47B45D00F7506B /* MockLocalStorage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -674,6 +687,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -682,6 +696,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.dummy.JaideepTaskCryptoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JaideepTaskCrypto.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JaideepTaskCrypto";
@@ -693,6 +708,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
